@@ -1,0 +1,5 @@
+/.dockerignore
+/.idea
+/Dockerfile
+/docker-compose.yml
+/gadget

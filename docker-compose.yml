@@ -1,0 +1,11 @@
+services:
+  ProbeShooter:
+    container_name: ProbeShooter
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: probeshooter:latest
+    # == Interactive shell =============
+    stdin_open: true
+    tty: true
+    # ==================================
