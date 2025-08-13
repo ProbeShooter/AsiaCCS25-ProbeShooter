@@ -1,7 +1,6 @@
 # AsiaCCS25-ProbeShooter
 This repository contains the artifacts and source code for the paper titled 
-_**"PʀᴏʙᴇSʜᴏᴏᴛᴇʀ: A New Practical Approach for Probe Aiming"**_ to be presented at _**ASIA CCS '25**_. 
-The preprint of the paper is available [here](https://eprint.iacr.org/2025/20).
+_**"PʀᴏʙᴇSʜᴏᴏᴛᴇʀ: A New Practical Approach for Probe Aiming"**_ to be presented at _**ASIA CCS '25**_ (available [here](https://doi.org/10.1145/3708821.3710815)). 
 
 ## Structure
 ```
@@ -110,7 +109,7 @@ The preprint of the paper is available [here](https://eprint.iacr.org/2025/20).
 
 ## Getting Started with Docker
 
-### ❶. Pull a pre-built image from Docker Hub
+### ❶ Pull a pre-built image from Docker Hub
 We have pre-built and uploaded the files and data of this repository as a Docker image to Docker Hub.
 By running the following command, you can pull and run the Docker image.
 For more details, you can check [here](https://hub.docker.com/r/daehyeonbae/asiaccs25-probeshooter).
@@ -120,7 +119,7 @@ For more details, you can check [here](https://hub.docker.com/r/daehyeonbae/asia
 > [!NOTE]
 > Due to GitHub's storage limitations, the PSD chunks are included only in the Docker image. 
 
-### ❷. Run scripts
+### ❷ Run scripts
 Once you run the container, you will have access to a Bash shell. 
 Then, by executing the scripts inside `AsiaCCS25-ProbeShooter/scripts`, 
 the corresponding result figures will be generated and saved in `AsiaCCS25-ProbeShooter/scripts/output`.
@@ -128,16 +127,16 @@ the corresponding result figures will be generated and saved in `AsiaCCS25-Probe
 ## Citation
 
 #### MLA
-> Bae, Daehyeon, et al. "ProbeShooter: A New Practical Approach for Probe Aiming." _Proceedings of the 20th ACM Asia Conference on Computer and Communications Security (ASIA CCS)_. 2025.
+> Bae, Daehyeon, et al. "ProbeShooter: A New Practical Approach for Probe Aiming." _Proceedings of the 20th ACM Asia Conference on Computer and Communications Security (ASIA CCS)_. 2025, pp. 1158–1174.
 
 #### APA
-> Bae, D., Park, S., Choi, M., Jung, Y., Jeong, C., Kim, H., & Hong, S. (2025, August). ProbeShooter: A New Practical Approach for Probe Aiming. In _Proceedings of the 19th ACM Asia Conference on Computer and Communications Security (ASIA CCS)_.
+> Bae, D., Park, S., Choi, M., Jung, Y., Jeong, C., Kim, H., & Hong, S. (2025, August). ProbeShooter: A New Practical Approach for Probe Aiming. In _Proceedings of the 20th ACM Asia Conference on Computer and Communications Security (ASIA CCS)_ (pp. 1158–1174).
 
 #### ISO 690
-> BAE, Daehyeon, et al. ProbeShooter: A New Practical Approach for Probe Aiming. In: _Proceedings of the 20th ACM Asia Conference on Computer and Communications Security (ASIA CCS)_. 2025.
+> BAE, Daehyeon, et al. ProbeShooter: A New Practical Approach for Probe Aiming. In: _Proceedings of the 20th ACM Asia Conference on Computer and Communications Security (ASIA CCS)_. 2025, pp. 1158–1174.
 
 #### IEEE
-> D. Bae, S. Park, M. Choi, Y.-G. Jung, C. Jeong, H. Kim, and S. Hong, "ProbeShooter: A new practical approach for probe aiming," in _Proc. 20th ACM Asia Conf. Comput. Commun. Secur. (ASIA CCS)_, 2025.
+> D. Bae, S. Park, M. Choi, Y.-G. Jung, C. Jeong, H. Kim, and S. Hong, "ProbeShooter: A new practical approach for probe aiming," in _Proc. 20th ACM Asia Conf. Comput. Commun. Secur. (ASIA CCS)_, 2025, pp. 1158–1174.
 
 #### BibTeX
 ```
@@ -145,6 +144,7 @@ the corresponding result figures will be generated and saved in `AsiaCCS25-Probe
     author = {Daehyeon Bae and Sujin Park and Minsig Choi and Young-Giu Jung and Changmin Jeong and Heeseok Kim and Seokhie Hong},
     title = {{ProbeShooter}: A New Practical Approach for Probe Aiming},
     booktitle = {Proceedings of the 20th ACM Asia Conference on Computer and Communications Security (ASIA CCS)},
+    pages={1158--1174},
     year = {2025},
     address = {Hanoi, Vietnam},
     doi = {10.1145/3708821.3710815},
