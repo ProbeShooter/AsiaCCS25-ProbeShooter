@@ -57,7 +57,6 @@ class PSDChunk:
         else:  # upper_bound_hz is not None
             selector = self.__freq <= upper_bound_hz
         if np.sum(selector) == 0:
-            print("[Warning] 없음.", file=sys.stderr)
             return None
         target_idx = np.argwhere(selector)[:, 0]
         return PSDChunkSlicesContinuous(self.__id,
@@ -118,7 +117,7 @@ class PSDChunk:
         target_idx_list = np.array(target_idx_list, dtype=np.int32)
         new_slice_len = len(target_idx_list)
         err_cnt = np.sum((target_idx_list < 0) | (target_idx_list >= len(self.__freq)))
-        assert err_cnt == 0, "ERRORRRRRRRRRR"
+        assert err_cnt == 0
         return PSDChunkSlicesDiscrete(self.__id,
                                       np.ascontiguousarray(np.copy(self.__data[:, :, target_idx_list])),
                                       np.ascontiguousarray(np.copy(self.__freq[target_idx_list])),
